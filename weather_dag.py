@@ -107,9 +107,9 @@ def transform_data(all_data, error_data):
 def upload_to_s3(df_data, df_errors, s3_bucket):
     # AWS credentials to access S3 (you should handle these securely)
     aws_credentials = {
-        'key': 'ASIAQEFWAKPO6HVH4RNV', 
-        'secret': 'sqH2Rl+e+ZnJTDxQzfiY3M3jH1nYQ8vSGsiMHl16', 
-        "token": 'IQoJb3JpZ2luX2VjEGUaCXVzLWVhc3QtMSJHMEUCIQCx/c3GONCQsMeQltyr1eKqhhSCFae16o++5JBV01/p6wIgISyi7mDMWdtuFKvjkrHOUTvHYro8eoXJDlSCokcgbDcq0wEIXhAAGgwwMDg5NzE2Mzc3MjUiDMAGodgyA7G6+1tqwCqwAUl0yOrKwxMGwFzY82mToY+ETFyOiNlqxTw2dYX88w5rEPSjEJuvUrwIuPOmVamxrtfzXBYvh7K0xU5jaVqiyiLTZNM7fOyEXv0tV2z1HO12PKMFZUjuvf+oZ10wTYAC0gUG9OiGbPH9RzzsVMKgg80tH/mEWGW/weZzbdflMTbcHCreiW0GFR8I3dDC2y3D1w+8oOZWOHve08QDVxcK7GRPrJcXjZSJJjjO0sNxgnBcMIfB3bUGOpgBgJN+gPGxGTKgull+Y68py9Z20h4QTSINvWSm5km+BZVUYBhiG9e+o9s1MprRPd1/xo4lb/19qMBBkBlB0ggyATw6BrQZlvGDWC53ELjw5iPkgvFTQMlpHtgOekJ8PSNc/dVkgV8tYcKYJjq7piE8TcAnpZmJRDj+n6eZzQrgNfNJWw6049z5XkCYbPnauEkmW9MRlBy07RM='}
+        'key': 'uvwsyz', 
+        'secret': 'abcdefghigklmnopqrst', 
+        "token": '1234567890asdfghjkl'}
 
     # Generate filenames for the data and error CSVs
     now = datetime.now().strftime('%Y%m%d%H%M%S')  # Get the current timestamp
